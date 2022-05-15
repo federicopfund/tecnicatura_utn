@@ -1,4 +1,9 @@
-# All-things-Java
+# Java_tutoriales
+
+## UTN 
+  -Prof Ariel Betancud - Univercidad Tecnologica Nacional.
+  ** Fundamentos en Java -    Tipos de datos.
+  - [(INICIO) Variables en Java - iniciar proyecto](https://www.youtube.com/watch?v=JIulT2_7qWk&t=793s)
 
 ##Tech Talks
 
