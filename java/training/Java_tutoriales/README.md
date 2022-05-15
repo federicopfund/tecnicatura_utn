@@ -1,13 +1,12 @@
 # Java_tutoriales
 
-## UTN 
-  -Prof Ariel Betancud - Univercidad Tecnologica Nacional.
-  ** Fundamentos en Java -    Tipos de datos.
-  - [(INICIO) Variables en Java - iniciar proyecto](https://www.youtube.com/watch?v=JIulT2_7qWk&t=793s)
+### UTN 
+  - Prof Ariel Betancud - Univercidad Tecnologica Nacional.
+    - [Tipos de datos (INICIO) Variables en Java - iniciar proyecto](https://www.youtube.com/watch?v=JIulT2_7qWk&t=793s)
 
 ##Tech Talks
 
-### Core Java
+### Nucleo Java
   - [Java (Beginner) Programming Tutorials - thenewboston](https://www.youtube.com/playlist?list=PLFE2CE09D83EE3E28)
   - [Google I/O 2008 - Effective Java Reloaded](https://www.youtube.com/watch?v=pi_I7oD_uGI)
   - [Effective Java - Still Effective After All These Years](https://www.youtube.com/watch?v=V1vQf4qyMXg)
@@ -19,7 +18,7 @@
   - [Java/J2EE & SOA Tutorial Videos - edureka](https://www.youtube.com/playlist?list=PL9ooVrP1hQOHb4bxoHauWVwNg4FweDItZ)
 
   
-### Collections
+### Colecciones
   - [HashTable vs HashMap vs Concurrent HashMap all kinds of Map implementations](https://www.youtube.com/watch?v=APL28XpFP0c)
   - [An Overview of the Java Collections Framework](https://www.youtube.com/watch?v=-ZPygkxkRUQ)
   - [Collections Refueled](https://www.youtube.com/watch?v=LgR9ByD1dEw)
@@ -29,46 +28,46 @@
   - [Field Guide to Java Collections](https://www.youtube.com/watch?v=PZl_0URd8Qo)
 
 
-### Concurrency  
+### Concurrencia 
   - Prof Douglas Schmidt - Vanderbilt University
-    - [Inherent Complexities of Concurrency (Part 1)](https://www.youtube.com/watch?v=LDmXV6jP-DQ)
-    - [Inherent Complexities of Concurrency (Part 2)](https://www.youtube.com/watch?v=mVC3RQzlaoU)
-    - [Overview of Java Threads](https://www.youtube.com/watch?v=1YwVH-nhDtc)
-    - [Java Built-in Monitor Objects (Part 1)](https://www.youtube.com/watch?v=JisaeZHO5As)
-    - [Java Built-in Monitor Objects (Part 2)](https://www.youtube.com/watch?v=Rv4YM2PmA8c)
-    - [Java Thread and Monitor Object Example](https://www.youtube.com/watch?v=CdB4OTuqs6M)
-    - [Overview of Java Synchronization Mechanisms](https://www.youtube.com/watch?v=WUN7XtomlB4)
-    - [Managing the Java Thread Lifecycle](https://www.youtube.com/watch?v=CwzYMt3_2Ek)
-    - [Java Semaphore](https://www.youtube.com/watch?v=enuAbyjfonA)
-    - [Java ReentrantLock](https://www.youtube.com/watch?v=IW5YsMU1730)
-    - [Java Readers-Writer Locks](https://www.youtube.com/watch?v=kDAM2J44ZnE)
-    - [The Java Executor Framework (Part 1)](https://www.youtube.com/watch?v=2NAlvSkK9-k)
-    - [The Java Executor Framework (Part 2)](https://www.youtube.com/watch?v=nD8kTrnKH2Y)
-    - [Java Barrier Synchronization](https://www.youtube.com/watch?v=V6LTKKTh_FA)
-    - [Java ConditionObject](https://www.youtube.com/watch?v=_t9BOgQNkJ8)
-    - [Java Phasers](https://www.youtube.com/watch?v=N00XaMuhHhE)
-  - [Advanced Java Multi-Threading Concepts - saurabhschool](https://www.youtube.com/playlist?list=PLTZbNwgO5ebr1O4i3CI9XHLJmiKBRRZsL)
-  - [Finding Subtle but Common Concurrency Issues in Java Programs](https://www.youtube.com/watch?v=Oi6-pXX11qw)
-  - [Java Concurrency Under the Hood](https://www.youtube.com/watch?v=H9CCFf6XgyQ)
-  - [Combining Collections and Concurrency](https://www.youtube.com/watch?v=1NeZys7KEvc)
-  - [Flavors of Concurrency in Java](https://www.youtube.com/watch?v=UoKebad9UOk)
-  - [The Quest for Low-latency with Concurrent Java](https://www.infoq.com/presentations/low-latency-concurrrent-java-8)
-  - [Engineering Concurrent Library Components - Doug Lea](https://www.youtube.com/watch?v=sq0MX3fHkro)
-  - [GOTO 2014 • New Concurrency Utilities in Java 8 • Angelika Langer](https://www.youtube.com/watch?v=Q_0_1mKTlnY)
-  - [The Secrets of Concurrency, Heinz Kabutz](https://www.youtube.com/watch?v=upVBg3oiN_Y)
-  - [ITT 2015 - Heinz Kabutz - The Multi-threading, Non Blocking IO](https://www.youtube.com/watch?v=uKc0Gx_lPsg)
-  - [Arno Haase. Java Concurrency in Practice](https://www.youtube.com/watch?v=cr7x634xIrE)
-  - [Java Multithreading With Executors Course Lectures 1-12](https://www.youtube.com/watch?v=B037zeHUVH8)
-  - [Comparing different concurrency models on the JVM](https://www.youtube.com/watch?v=QFB_3uUGzR4)
-  - [New Concurrency Models on the JVM: Fibres, Verticles, Agents and Actors. by Lutz Huehnken](https://www.youtube.com/watch?v=EMv_8dxSqdE)
-  - [Philly ETE 2016 #35 - From Concurrent to Parallel - Brian Goetz](https://www.youtube.com/watch?v=QicNusGdz4g)
+    - [Complejidades inherentes de la concurrencia (Part 1)](https://www.youtube.com/watch?v=LDmXV6jP-DQ)
+    - [Complejidades inherentes de la concurrencia (Part 2)](https://www.youtube.com/watch?v=mVC3RQzlaoU)
+    - [Descripción general de los subprocesos de Java](https://www.youtube.com/watch?v=1YwVH-nhDtc)
+    - [Objetos de supervisión integrados de Java (Part 1)](https://www.youtube.com/watch?v=JisaeZHO5As)
+    - [Objetos de supervisión integrados de Java (Part 2)](https://www.youtube.com/watch?v=Rv4YM2PmA8c)
+    - [Ejemplo de subproceso de Java y objeto de supervisión](https://www.youtube.com/watch?v=CdB4OTuqs6M)
+    - [Descripción general de los mecanismos de sincronización de Java](https://www.youtube.com/watch?v=WUN7XtomlB4)
+    - [Administrar el ciclo de vida de subprocesos de Java](https://www.youtube.com/watch?v=CwzYMt3_2Ek)
+    - [Semáforo Java](https://www.youtube.com/watch?v=enuAbyjfonA)
+    - [Bloqueo de reentrada de Java](https://www.youtube.com/watch?v=IW5YsMU1730)
+    - [Bloqueos de lectores y escritores de Java](https://www.youtube.com/watch?v=kDAM2J44ZnE)
+    - [El marco del ejecutor de Java (Part 1)](https://www.youtube.com/watch?v=2NAlvSkK9-k)
+    - [El marco del ejecutor de Java (Part 2)](https://www.youtube.com/watch?v=nD8kTrnKH2Y)
+    - [Sincronización de barrera de Java](https://www.youtube.com/watch?v=V6LTKKTh_FA)
+    - [Objeto de condición de Java](https://www.youtube.com/watch?v=_t9BOgQNkJ8)
+    - [Controladores de fase de Java](https://www.youtube.com/watch?v=N00XaMuhHhE)
+  - [Conceptos avanzados de subprocesos múltiples de Java - saurabhschool](https://www.youtube.com/playlist?list=PLTZbNwgO5ebr1O4i3CI9XHLJmiKBRRZsL)
+  - [Encontrar problemas de concurrencia sutiles pero comunes en programas Java](https://www.youtube.com/watch?v=Oi6-pXX11qw)
+  - [Simultaneidad de Java bajo el capó](https://www.youtube.com/watch?v=H9CCFf6XgyQ)
+  - [Combinar colecciones y concurrencia](https://www.youtube.com/watch?v=1NeZys7KEvc)
+  - [Sabores de concurrencia en Java](https://www.youtube.com/watch?v=UoKebad9UOk)
+  - [La búsqueda de baja latencia con Java concurrente](https://www.infoq.com/presentations/low-latency-concurrrent-java-8)
+  - [Ingeniería de componentes de biblioteca concurrentes - Doug Lea](https://www.youtube.com/watch?v=sq0MX3fHkro)
+  - [GOTO 2014 • Nuevas utilidades de concurrencia en Java 8 • Angelika Langer](https://www.youtube.com/watch?v=Q_0_1mKTlnY)
+  - [Los secretos de la concurrencia, Heinz Kabutz](https://www.youtube.com/watch?v=upVBg3oiN_Y)
+  - [ITT 2015 - Heinz Kabutz - El multihilo, Non Blocking IO](https://www.youtube.com/watch?v=uKc0Gx_lPsg)
+  - [Arno Haase. Concurrencia de Java en la práctica](https://www.youtube.com/watch?v=cr7x634xIrE)
+  - [Java Conferencias del curso de subprocesos múltiples con ejecutores 1-12](https://www.youtube.com/watch?v=B037zeHUVH8)
+  - [Comparar diferentes modelos de concurrencia en el JVM](https://www.youtube.com/watch?v=QFB_3uUGzR4)
+  - [Nuevos modelos de concurrencia en el JVM: Fibres, Verticles, Agents and Actors. by Lutz Huehnken](https://www.youtube.com/watch?v=EMv_8dxSqdE)
+  - [Philly ETE 2016 #35 - De Concurrente a Paralelo - Brian Goetz](https://www.youtube.com/watch?v=QicNusGdz4g)
   - [Why There's No Future in Java Futures](https://www.youtube.com/watch?v=L-rKLSdPEMs)
-  - [JDK IO 2014 - Java Concurrency and Non blocking IO - Dr Heinz M. Kabutz](https://www.youtube.com/watch?v=vkjNjZiMt4w)
-  - [From Concurrent to Parallel](https://www.youtube.com/watch?v=NsDE7E8sIdQ)
-  - [Philly ETE 2016 #35 - From Concurrent to Parallel - Brian Goetz](https://www.youtube.com/watch?v=QicNusGdz4g)
+  - [JDK IO 2014 - Concurrencia de Java y E/S sin bloqueo IO - Dr Heinz M. Kabutz](https://www.youtube.com/watch?v=vkjNjZiMt4w)
+  - [ Concurrencia en Paralelo](https://www.youtube.com/watch?v=NsDE7E8sIdQ)
+  - [Philly ETE 2016 #35 -  Concurrencia en Paralelo - Brian Goetz](https://www.youtube.com/watch?v=QicNusGdz4g)
 
 
-### Generics
+### Genéricos
   - [Java Generics Tutorial](https://www.youtube.com/watch?v=9tHLV0u87G4)
   - [Generics and Java's Evolution](https://www.infoq.com/presentations/java-generics)
   - [Generics in Java](https://www.youtube.com/playlist?list=PLb-2YTj1124ChZ5j3gVjwZ8b69T7WoT4k)
