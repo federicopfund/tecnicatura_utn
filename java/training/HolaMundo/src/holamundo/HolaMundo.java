@@ -92,7 +92,7 @@ public class HolaMundo {
         System.out.println("La cadena es "+cadena2);
         */
         
-        // Tipos primitivos Enteros
+        // Tipos de datos primitivos: los tipos de datos primitivos incluyen boolean, char, byte, short, int, long, float y double.
         /*
         // El valor minimo de byte -128 y el maximo 127
         byte numEnteroByte = 127; 
