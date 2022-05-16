@@ -2,8 +2,11 @@
 
 ### UTN 
   - Prof Ariel Betancud - Univercidad Tecnologica Nacional.
-    - [Tipos de datos (INICIO) Variables en Java - iniciar proyecto](https://www.youtube.com/watch?v=JIulT2_7qWk&t=793s)
-![Página de inicio de sesión](img/tipos%20de%20datos.png)
+    - [Lista de palabras clave de Java](https://www.javatpoint.com/java-keywords)
+    - [Java Variables](https://www.javatpoint.com/java-variables)
+    - [Tipos de datos en Java ](https://www.javatpoint.com/java-data-types)
+    - [Operadores en java](https://www.javatpoint.com/operators-in-java)
+    
 ##Tech Talks
 
 ### Nucleo Java
