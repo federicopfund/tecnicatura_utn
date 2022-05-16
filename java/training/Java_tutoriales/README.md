@@ -112,7 +112,8 @@
     - [XML XPath (from JPassion.com)](https://www.youtube.com/watch?v=-lqhnXOkUqc)
     - [REST JAX-RS Part 1 (from JPassion.com)](https://www.youtube.com/watch?v=_0kmqtWYvaY)
     - [REST JAX-RS Part 2 (from JPassion.com)](https://www.youtube.com/watch?v=UVwJmxj-Msg)
-
+### junior Track
+   - [Java devs'22 - Junior track](https://www.youtube.com/watch?v=v7mPVWTustc)
 
 
 ### OOAD/ Design Patterns
