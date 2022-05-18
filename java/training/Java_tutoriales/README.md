@@ -3,7 +3,7 @@
 ### UTN 
   - Prof Ariel Betancud - Univercidad Tecnologica Nacional.
     - [Lista de palabras clave de Java](https://www.javatpoint.com/java-keywords)
-    - [Java Variables](https://www.javatpoint.com/java-variables)
+    - [Variables Java ](https://www.javatpoint.com/java-variables)
     - [Tipos de datos en Java ](https://www.javatpoint.com/java-data-types)
     - [Operadores en java](https://www.javatpoint.com/operators-in-java)
     
