@@ -1,8 +1,8 @@
 
-package holamundo;
-import java.util.Scanner;
+package TypeDate;
+//import java.util.Scanner;
 
-public class HolaMundo {
+public class TypeDate{
 
   // creamos el main "psvm + tab"
     public static void main(String[] args) {
