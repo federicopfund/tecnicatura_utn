@@ -1,15 +1,15 @@
-
 package TypeDate;
 //import java.util.Scanner;
 
-public class TypeDate{
+public class TypeDate {
 
-  // creamos el main "psvm + tab"
+    // creamos el main "psvm + tab"
     public static void main(String[] args) {
         //para escribir en consola "sout + tab"
         // ln significa line
         // ctrl + c para guardar el proyecto
-       System.out.println("Hello Java");
+        /*
+        System.out.println("Hello Java");
        //Tipos de enteros y STRING
        int miVariable = 10;
        System.out.println(miVariable);
@@ -20,12 +20,9 @@ public class TypeDate{
        System.out.println(miVariableCadena);
        miVariableCadena = "Sigamos creciendo en Programacion";
        System.out.println(miVariableCadena);
-       
-
-
-
+       /*
         
-        /*
+       /*
        
         
         // Var  inferencia de tipos en Java
@@ -48,7 +45,7 @@ public class TypeDate{
         System.out.println(usuario + (a + b));
         
         // Ejercicio: Caracteres especiales con Java
-        var nombre = "FENDER";
+        var nombre = "FENDERZ";
        // Digonal inversa y letra n, para agregar una linea en el print
         System.out.println("\nNueva linea: \n" + nombre);
         //Tabulador son cuatro espacios
@@ -58,7 +55,7 @@ public class TypeDate{
         System.out.println("Retroceso: \b\b" + nombre); 
         System.out.println("Comillas simples: \'" + nombre + "\'");
         System.out.println("Comillas dobles: \"" + nombre + "\"");
-        */
+         */
         // Clase Scanner
         /*
         
@@ -90,9 +87,11 @@ public class TypeDate{
         System.out.print("Digite una cadena con next line  ");
         cadena2 = entrada.nextLine();
         System.out.println("La cadena es "+cadena2);
-        */
-        
-        // Tipos de datos primitivos: los tipos de datos primitivos incluyen boolean, char, byte, short, int, long, float y double.
+         */
+
+        // Tipos de datos primitivos:
+        //los tipos de datos primitivos incluyen
+        // boolean, char, byte, short, int, long, float y double.
         /*
         // El valor minimo de byte -128 y el maximo 127
         byte numEnteroByte = 127; 
@@ -124,12 +123,22 @@ public class TypeDate{
         System.out.println("numFloat = " + numFloat);
         System.out.println("Valor minimo de float: "+ Float.MIN_VALUE);
         System.out.println("Valor maximo de float: "+ Float.MAX_VALUE);
-        
+        */
+         /*
+        double d = 1.0 / 0;
+        System.out.println("Lo que se mostrará en la"
+                + " pantalla después de ejecutar : "
+                + d);/*
+        //En el caso de la división doble/flotante,
+        // la salida es Infinito, ya que la división por cero no arroja una excepción aritmética.
+        // La razón de esto es que double y float usan el algoritmo aritmético de coma flotante,
+        // que especifica valores especiales como "No es un número" o "infinito" mientras "se divide por cero" según los estándares IEEE 754.
+        /*
         double numDouble = 1.34457793158e108;
         System.out.println("numDouble = " + numDouble);
         System.out.println("Valor minimo de double: "+ Double.MIN_VALUE);
         System.out.println("Valor maximo de double: "+ Double.MAX_VALUE);
-        */
+         */
         // Inferencia de tipos var y tipos primitivos
         /*
         // Las literales sin punto automaticamente son de tipo int
@@ -140,8 +149,7 @@ public class TypeDate{
         System.out.println("numFloat = " + numFloat);
         // Automaticamente con el punto se transforma en tipo double
         var numDouble = 10.0;
-        */
-        
+         */
         // Tipos primitivos CHAR
         /*
         char miVariableChar = 'a';
@@ -165,8 +173,7 @@ public class TypeDate{
          // Un caracter especial, podemos copiar y pegar desde unicode
         var varCaracterSimbolo1 = '$'; 
         System.out.println("varCaracterSimbolo1 = " + varCaracterSimbolo1);
-        */
-        
+         */
         // Tipos primitivos tipos booleanos
         /*
         boolean varBool = true;
@@ -178,9 +185,8 @@ public class TypeDate{
         else{
             System.out.println("La vandera es roja");
         }
-        */
-        
-        /*
+         */
+ /*
         var edad = 30;
          // Esta es una expresión booleana
         // var adulto = edad >= 18; 
@@ -190,7 +196,7 @@ public class TypeDate{
         else{
             System.out.println("No eres mayor de edad");
         }
-        */
+         */
         // Conversion de tipos primitivos
         /*
         // La clase integer con el metodo parseint, transforma la cadena en un entero
@@ -198,13 +204,13 @@ public class TypeDate{
         // resultado sera 25
         System.out.println("edad = " + (edad + 1)); 
         
-        var edad1 = "27"; // tipo cadena
+        var edad = "27"; // tipo cadena
         // esto nos dara como resultado 201
-        System.out.println("edad1 = " + (edad1 + 1)); 
+        System.out.println("edad = " + (edad + 1)); 
         
         var valorPI = Double.parseDouble("3.141657");
         System.out.println("valorPI = " + valorPI);
-        */
+         */
         // Pedir un valor
         /*
         var entrada = new Scanner(System.in);
@@ -212,7 +218,7 @@ public class TypeDate{
         edad = Integer.parseInt(entrada.nextLine());
         System.out.println("entrada = " + entrada);
         System.out.println("edad = " + edad);
-        */
+         */
         // Conversión de tipos primitivos (parte dos)
         /*
         var edadTexto = String.valueOf(10);
@@ -225,9 +231,57 @@ public class TypeDate{
         var entrada = new Scanner(System.in);
         fraseChar = entrada.nextLine().charAt(0); // por mas que pongamos una cadena, solo tomara el carater en el indice especificado.
         System.out.println("fraseChar = " + fraseChar);
+         */
+        /*
+        // Comparacion de Booleanos
+        var aNum = 5;
+        var bNum = 4;
+        var cNum = (aNum == bNum);
+        System.out.println("eNum: " + cNum);
+
+        //Comparacion de STRING
+        var cadenaA = "Hello";
+        var cadenaB = "Hello";
+       
+        System.out.println(cadenaA == cadenaB);
+        //mostrar un mensaje al usuario si el numero es par
+        if (aNum % 2 == 0) {// comparacion por referencia
+            System.out.println("El Numero es para");
+        } else {
+            System.out.println("El Numero es impar");
+        }
+        
+        // metodos para comparacion, 
+        // comparacion interna de lo que tienen las variables adentro
+        var fvar = cadenaA.equals(cadenaB);
+        System.out.println("fvar : " + fvar);
+        
+        //Operadores Relacionada
+        var TVar = aNum > bNum;//> >= < <= == 1=
+        System.out.println("TVar =" + TVar);
+        var FVar = aNum < bNum;
+        System.out.println("gVar =" + FVar);
+        var rVar = aNum >= bNum;
+        System.out.println("gVar =" + rVar);
+        
+        var Edad = 30;
+        
+          if (Edad >= 18) {// comparacion por referencia
+            System.out.println("Mayor de edad");
+        } else {
+            System.out.println("Menor de edad");
+        }
         */
+       var valorA = 11;
+       var valorMinimo = 0;
+       var valorMaximo = 10;
+       var respuesta = valorA >= 0 && valorA <=10;
+       
+       if (respuesta){
+           System.out.println("Esta dentro del rango establecido.");
+       }else{
+           System.out.println("Este Numero esta dentro de rango establecido.");        
+       }
+
     }
 }
-    
-    
-
