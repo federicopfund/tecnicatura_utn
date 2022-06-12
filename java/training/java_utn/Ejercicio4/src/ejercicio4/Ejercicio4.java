@@ -2,7 +2,7 @@
 package ejercicio4;
 
 import java.util.Scanner;
-// Numero Mayor
+
 /**
  * @author federico pfund
  */

@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ejercicio6;
 
+import java.util.Scanner;
+
 /**
- *
- * @author feder
+ * @author federico pfund
  */
 public class Ejercicio6 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Introduzca la cantidad de dólares que tiene federico: ");
+        Double dolaresG = Double.parseDouble(entrada.nextLine());
+        var result = dolaresG * 2.25;
+        System.out.println("El total de dolares que tienen los tres es: U$D"+result);
     }
     
 }
