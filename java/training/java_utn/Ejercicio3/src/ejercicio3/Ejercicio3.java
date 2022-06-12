@@ -28,9 +28,9 @@ import java.util.Scanner;
 public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Digite el alto del rectangulo");
+        System.out.println("Digite el alto del rectangulo: ");
         var alto = Integer.parseInt(entrada.nextLine());
-        System.out.println("Digite el ancho del rectangulo");
+        System.out.println("Digite el ancho del rectangulo: ");
         var ancho = Integer.parseInt(entrada.nextLine());
         
         var area = alto * ancho;
