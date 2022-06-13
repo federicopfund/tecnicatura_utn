@@ -7,7 +7,7 @@ package FlowControlChallenge;
 
 /**
  *
- * @author feder
+ * @author federico pfund
  */
 public class FlowControlChallenge {
       public static void main(String... doYourBest) {

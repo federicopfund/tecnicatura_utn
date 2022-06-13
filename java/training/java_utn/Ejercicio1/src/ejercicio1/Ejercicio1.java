@@ -19,6 +19,7 @@ public class Ejercicio1 {
         System.out.println("Digite el precio del libro: ");
         double precioLibro = Double.parseDouble(entrada.nextLine());
         System.out.println("Confirme si el envio es gratuito: ");
+        //Devuelve verdadero si y solo si la propiedad del sistema nombrada por el argumento existe y es igual a la cadena "verdadero"
         boolean envioGratuito = Boolean.parseBoolean(entrada.nextLine());
         
         // Mostramos por pantalla los resultados

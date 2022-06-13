@@ -119,12 +119,13 @@
    - [Java devs'22 - Junior track](https://www.youtube.com/watch?v=v7mPVWTustc)
 
 
-### OOAD/ Design Patterns
-  - [Object Oriented Design](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
-  - [Design Patterns Video Tutorial](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
-  - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-  - [Design Patterns Videos - edureka](https://www.youtube.com/playlist?list=PL9ooVrP1hQOGTBBDSYP0gTnErhaTVVKI2)
-  - [Core Software Design Principles](https://www.youtube.com/watch?v=XgoldEoK-Rw)
+### OOAD/ Patrones de diseño
+
+  - [Diseño Orientado a Objetos](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
+  - [Diseño de Patrones Video Tutorial](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+  - [OOSE: Desarrollador de software usando UML y Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+  - [Diseño de Patrones Videos - edureka](https://www.youtube.com/playlist?list=PL9ooVrP1hQOGTBBDSYP0gTnErhaTVVKI2)
+  - [Principios básicos de diseño de software](https://www.youtube.com/watch?v=XgoldEoK-Rw)
 
 
 
@@ -185,7 +186,7 @@
 
 
 
-### Memory Management and GC
+### Gestión de memoria y GC
   - [How to Write Memory-Efficient Java Code](https://www.youtube.com/watch?v=f2aNWtt0QRo)
   - [From Java Code to Java Heap: Understanding the Memory Usage of Your Application](https://www.youtube.com/watch?v=FLcXf9pO27w)
   - [Garbage collection in Java, with Animation and discussion of G1 GC](https://www.youtube.com/watch?v=UnaNQgzw4zY)
@@ -204,7 +205,7 @@
   - [CON5823 Moving to G1 GC](https://www.youtube.com/watch?v=3Xrd9iSWTbI)
   - [The Fundamentals of Garbage Collector Performance](https://www.youtube.com/watch?v=D6jqVS5JFpM)
   - [Advanced Topics in Programming Languages: The Java Memory Model](https://www.youtube.com/watch?v=WTVooKLLVT8)
-  - Memory Management (Virtual Pair tutorials)
+  - Gestión de memoria  (Virtual Pair tutorials)
     - [Memory Fundamentals - part 1 of Java Memory Management](https://www.youtube.com/watch?v=ckYwv4_Qtmo)
     - [Values and References - part 2 of Java Memory Management](https://www.youtube.com/watch?v=7IkpIQc8OCw)
     - [Escaping References - part 3 of Java Memory Management](https://www.youtube.com/watch?v=nW48K2a6t7k)
@@ -225,7 +226,7 @@
 
 
 
-### Advanced Topics (JVM Tuning/JMX/ Classloaders/Reflection etc)
+### Topicos Avansados (JVM Tuning/JMX/ Classloaders/Reflection etc)
   - [The Fundamentals of JVM Tuning](https://www.youtube.com/watch?v=4joWshvFJnw)
   - [Advanced JVM Tuning](https://www.youtube.com/watch?v=o6qx_zvpOyI)
   - [JVM ( java virtual machine) architecture - tutorial](https://www.youtube.com/watch?v=ZBJ0u9MaKtM)
