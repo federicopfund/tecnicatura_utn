@@ -11,6 +11,6 @@ def main():
     string()
     ciclo_numero()
     imprecion_de_numeros()
-    
+    string()
     
 main()
