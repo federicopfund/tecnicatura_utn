@@ -1,4 +1,4 @@
-## main 
+## main leccion 1
 
 from resorce.ejercicio1.tiposVariables import tiposVariables
 from resorce.ejercicio2.concatenaString import concatenaString
