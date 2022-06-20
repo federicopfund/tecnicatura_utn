@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio8;
-
-import java.util.Scanner;
+package condicionales8;
 
 /**
  *
- * @author feder
+ * @author federico pfund
  */
-public class Ejercicio8 {
 
-    /**
-     * @param args the command line arguments
-     */
+import java.util.Scanner;
+public class Condicionales8 {
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite un número entre 0 y 10: ");

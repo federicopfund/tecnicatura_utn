@@ -1,16 +1,16 @@
 
-package ejercicio10;
+package condicionales10;
 
 import java.util.Scanner;
-
 /**
  *
  * @author federico pfund
  */
-public class Ejercicio10 {
+public class Condicionales10 {
 
+    
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+      Scanner entrada = new Scanner(System.in);
         System.out.println("Digite un mes del año: ");
         var mes = Integer.parseInt(entrada.nextLine());
         String estacion;
@@ -30,8 +30,6 @@ public class Ejercicio10 {
             estacion = "Número de mes no valido";
         }
         System.out.println("estacion = " + estacion);
-        
-    
     }
     
 }
