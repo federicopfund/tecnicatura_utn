@@ -1,6 +1,9 @@
 ## calcular el factorial de un numero.
  
 
+from functools import lru_cache
+
+
 def factorial():
     i = 1
     factorial = 1      
@@ -34,6 +37,18 @@ def factorial_recursivo(n):
     else:
         return n * factorial_recursivo(n-1)
 
+## caché: acceso simplificado al caché infinito
+
+
+def cache(user_function, /):
+    'Caché sencillo, liviano e ilimitado. A veces llamado "memoize.'
+    return lru_cache(maxsize=None)(user_function)
+## decorador " Memoización"
+@cache
+def factorialMemoizacion(n):
+    return n * factorialMemoizacion(n-1) if n else 1
+
+
 def main():
     
     factorial()
@@ -42,6 +57,7 @@ def main():
     
     print(f"El factorial de {n} es: {  factorial_recursivo(n)}") 
     
+    print(f"El factorial de {n} es: {  factorialMemoizacion(n)}") 
     
 if __name__ == '__main__':
     main()
