@@ -41,6 +41,8 @@ def main():
     print(f"El factorial de {n} es: { factorial_normal(n)}") 
     
     print(f"El factorial de {n} es: {  factorial_recursivo(n)}") 
-
-main()
+    
+    
+if __name__ == '__main__':
+    main()
 
