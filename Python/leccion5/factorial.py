@@ -59,6 +59,12 @@ def main():
     
     print(f"El factorial de {n} es: {  factorialMemoizacion(n)}") 
     
+# crear con touch y abrir un archivo de texto para escribir
+
+
+
+    
+     
 if __name__ == '__main__':
     main()
 
