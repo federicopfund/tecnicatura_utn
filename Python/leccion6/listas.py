@@ -99,3 +99,37 @@ lista3.sort()  # Ordena los elementos de forma ascendente
 print(lista3)
 lista3.sort(reverse=True)  # Ordena los elementos de forma descendente
 print(lista3)
+
+
+# Pilas usando listas
+pila = [1, 2, 3,4,3,5]
+print(pila)
+
+# Agregar elementos a la pila por el final
+pila.append(6)
+pila.append(7)
+print(pila)
+
+# Sacamos elementos desde el final
+elemborrado = pila.pop()  # Quita el último elemento y lo guarda en la variable
+print(f'El elemento borrado de la lista {elemborrado}')
+print(f'Nuestra lista quedo asi {pila}')
+
+# Colas con listas
+# Estructura de datos de tipos FI-FO(first input / first output)
+
+cola = ['laura', 'marcela', 'juliana', 'andrea','belen','naty']
+print(cola)
+
+# Agregamos elementos al final de la cola
+cola.append('Ana')
+cola.append('Irina')
+print(cola)
+
+# Sacamos elementos de la cola
+seretira = cola.pop(0)
+print(f'Es atendida {seretira}')
+
+for i in range(len(cola)):
+    seretira = cola.pop(0)
+    print(f'Es atendida {seretira}')
