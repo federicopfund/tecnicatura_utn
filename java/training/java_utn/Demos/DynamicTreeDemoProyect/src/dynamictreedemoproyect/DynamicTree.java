@@ -1,40 +1,8 @@
-/*
- * Copyright (c) 1995, 2008, Oracle and/or its affiliates. All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- *
- *   - Redistributions of source code must retain the above copyright
- *     notice, this list of conditions and the following disclaimer.
- *
- *   - Redistributions in binary form must reproduce the above copyright
- *     notice, this list of conditions and the following disclaimer in the
- *     documentation and/or other materials provided with the distribution.
- *
- *   - Neither the name of Oracle or the names of its
- *     contributors may be used to endorse or promote products derived
- *     from this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
- * IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
- * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
- * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
- * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
- * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
- * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
- * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
- * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
- * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
- * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */ 
+
 
 package dynamictreedemoproyect;
 
-/*
- * This code is based on an example provided by Richard Stanford, 
- * a tutorial reader.
- */
+
 
 import java.awt.GridLayout;
 import java.awt.Toolkit;
@@ -58,7 +26,7 @@ public class DynamicTree extends JPanel {
     public DynamicTree() {
         super(new GridLayout(1,0));
         
-        rootNode = new DefaultMutableTreeNode("Root Node");
+        rootNode = new DefaultMutableTreeNode("Raiz Arbol");
         treeModel = new DefaultTreeModel(rootNode);
 	treeModel.addTreeModelListener(new MyTreeModelListener());
         tree = new JTree(treeModel);
@@ -71,13 +39,13 @@ public class DynamicTree extends JPanel {
         add(scrollPane);
     }
 
-    /** Remove all nodes except the root node. */
+    /**  Elimine todos los nodos excepto el nodo raíz. */
     public void clear() {
         rootNode.removeAllChildren();
         treeModel.reload();
     }
 
-    /** Remove the currently selected node. */
+    /** Eliminar el nodo seleccionado actualmente. */
     public void removeCurrentNode() {
         TreePath currentSelection = tree.getSelectionPath();
         if (currentSelection != null) {
@@ -90,11 +58,11 @@ public class DynamicTree extends JPanel {
             }
         } 
 
-        // Either there was no selection, or the root was selected.
+        // O bien no hubo selección, o se seleccionó la raíz.
         toolkit.beep();
     }
 
-    /** Add child to the currently selected node. */
+    /** Agregar hijo al nodo seleccionado actualmente. */
     public DefaultMutableTreeNode addObject(Object child) {
         DefaultMutableTreeNode parentNode = null;
         TreePath parentPath = tree.getSelectionPath();
@@ -124,11 +92,11 @@ public class DynamicTree extends JPanel {
             parent = rootNode;
         }
 	
-	//It is key to invoke this on the TreeModel, and NOT DefaultMutableTreeNode
+	//Es clave invocar esto en el TreeModel, y NO DefaultMutableTreeNode
         treeModel.insertNodeInto(childNode, parent, 
                                  parent.getChildCount());
 
-        //Make sure the user can see the lovely new node.
+        //Asegúrese de que el usuario puede ver el nuevo nodo encantador.
         if (shouldBeVisible) {
             tree.scrollPathToVisible(new TreePath(childNode.getPath()));
         }
@@ -141,17 +109,17 @@ public class DynamicTree extends JPanel {
             node = (DefaultMutableTreeNode)(e.getTreePath().getLastPathComponent());
 
             /*
-             * If the event lists children, then the changed
-             * node is the child of the node we've already
-             * gotten.  Otherwise, the changed node and the
-             * specified node are the same.
+              * Si el evento enumera los hijos, entonces el cambio
+             * nodo es el hijo del nodo que ya tenemos
+             * got.  De lo contrario, el nodo cambiado y el
+             * nodo especificado son los mismos
              */
 
                 int index = e.getChildIndices()[0];
                 node = (DefaultMutableTreeNode)(node.getChildAt(index));
 
-            System.out.println("The user has finished editing the node.");
-            System.out.println("New value: " + node.getUserObject());
+            System.out.println("El usuario ha terminado de editar el nodo.");
+            System.out.println("Nuevo Valor: " + node.getUserObject());
         }
         public void treeNodesInserted(TreeModelEvent e) {
         }
