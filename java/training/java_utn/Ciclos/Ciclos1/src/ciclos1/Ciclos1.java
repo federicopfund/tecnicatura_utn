@@ -48,11 +48,10 @@ public class Ciclos1 {
                 break;
             }
             if (numero % 2 == 0) {
-                JOptionPane.showMessageDialog(null,
-                "Es par");
+                JOptionPane.showMessageDialog(null,"Es par");
             } else {
-                JOptionPane.showMessageDialog(null,
-                "Es impar");
+                JOptionPane.showMessageDialog(null,"Es impar");
+                        
             }
         }
         

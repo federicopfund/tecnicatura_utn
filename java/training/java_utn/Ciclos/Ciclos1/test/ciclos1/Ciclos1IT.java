@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author feder
+ * @author federico pfund
  */
 public class Ciclos1IT {
     
