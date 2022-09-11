@@ -80,6 +80,35 @@ public class  HolaMundo {
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+" "+usuario2);
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         int entero;
         float decimal;
         String cadena; 
@@ -124,6 +153,22 @@ public class  HolaMundo {
         System.out.println("Valor maximo del int: "+ Integer.MAX_VALUE);
         
         // Debemos agregar la letra "L" al final del número.
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         long numEnteroLong = 24422L;
         System.out.println("numEnteroLong = " + numEnteroLong);
@@ -191,6 +236,34 @@ public class  HolaMundo {
         /*
         boolean varBool = true;
         System.out.println("varBool = " + varBool);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         if (varBool) {
             System.out.println("La bandera es verde");

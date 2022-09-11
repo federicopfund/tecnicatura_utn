@@ -50,7 +50,7 @@
 /java/training/java_utn/Ejercicio10/build/
 /java/training/java_utn/Ejercicio10/build.xml
 /java/training/java_utn/Ejercicio10/manifest.mf
-/java/training/java_utn/holaMundo/nbproject/private/
+
 /java/training/java_utn/holaMundo/build/
 /java/training/java_utn/holaMundo/nbproject
 /java/training/java_utn/holaMundo/build.xml
@@ -72,6 +72,7 @@
 /java/training/java_utn/ejerciciopromedio/build/
 /java/training/java_utn/ejerciciopromedio/build.xml
 /java/training/java_utn/ejerciciopromedio/manifest.mf
+
 /java/training/java_utn/JavaRefactorChallenge/ArrayChallenge/build
 /java/training/java_utn/JavaRefactorChallenge/ArrayChallenge/nbproject/private
 
@@ -127,3 +128,6 @@
 
 /java/training/JavaRefactorChallenge/JavaModularApplication1/nbproject/private/
 /java/training/JavaRefactorChallenge/gradleproject1/.gradle/
+
+/java/training/java_utn/treeNode/nbproject/private/
+
