@@ -38,11 +38,11 @@
   codebase="https://docs.oracle.com/javase/tutorialJWS/samples/uiswing/FrameDemo2Project"
   href="FrameDemo2.jnlp">
   <information>
-    <title>FrameDemo2</title>
+    <title>Oracle Company</title>
     <vendor>The Java(tm) Tutorial</vendor>
     <homepage href="https://docs.oracle.com/javase/tutorial/uiswing/examples/components/index.html#FrameDemo2"/>
     <description>FrameDemo2</description>
-    <description kind="short">Demonstrates use of buttons within containers</description>
+    <description kind="short">Muestra como usa un boton dentro de un contenedor</description>
     <offline-allowed/>
   </information>
   <resources>
@@ -51,3 +51,4 @@
   </resources>
   <application-desc main-class="components.FrameDemo2"/>
 </jnlp> 
+

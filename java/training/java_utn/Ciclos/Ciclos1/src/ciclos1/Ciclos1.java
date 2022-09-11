@@ -20,12 +20,13 @@ public class Ciclos1 {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Esta es la ejecucion con la clase Scanner");
         while (true) {
-            System.out.println("Introduzca un número: ");
+            System.out.println("Introduzca un Numero: ");
             int numero = Integer.parseInt(entrada.nextLine());
             if (numero == 0) {
-                System.out.println("El ciclo termino por ingrsar un 0");
+                System.out.println("El ciclo termino por ingrsar un 0.");
                 break;
             }
+ 	// Este condicionar verificara que no es par .
             if (numero % 2 == 0) {
                 System.out.println("Es par");
             } else {
@@ -60,3 +61,8 @@ public class Ciclos1 {
     }
     
 }
+
+
+
+
+
