@@ -45,8 +45,17 @@ def conecta(server,database,username,password):
     
 def consultaSQL(consulta):
     cursor = conecta(server,database,username,password)
-    on=cursor.execute(consulta)
-    
+    cursor.execute(consulta)
+    contador=0
+    ##print(help(cursor)) Te sera de mucha ayuda para ver las entrañas de la clase!!
+    while True:
+        contador +=1
+       ## 'fetchone()':
+       #   -  devuelve none cuando se recuperan todas las columnas
+        row = cursor.fetchone() 
+        if not row:
+            break
+        print(f"Consulta {contador}° : {row}.")
     #print(help(on))
 
         
