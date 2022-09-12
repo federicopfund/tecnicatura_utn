@@ -8,7 +8,7 @@ import pyodbc
 server = 'tcp:miservidors.database.windows.net,1433' 
 database = 'miBaseDeDatosDeEjemplo' 
 username = 'db' 
-password = '' 
+password = 'Fede/(40021)' 
 # Specifying the ODBC driver, server name, database, etc. directly
 
 
@@ -55,12 +55,28 @@ def consultaSQL(consulta):
         row = cursor.fetchone() 
         if not row:
             break
-        print(f"Consulta {contador}° : {row}.")
+        print(f"Consulta {contador}° : {row}")
     #print(help(on))
 
         
-consulta='''SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
+consulta1='''SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
                             FROM SalesLT.ProductCategory pc
                             JOIN SalesLT.Product p
                             ON pc.productcategoryid = p.productcategoryid;'''
-consultaSQL(consulta)
+
+consulta='''SELECT ProductID, Name, Color,	
+            ListPrice,ProductNumber,
+            StandardCost FROM SalesLT.Product;'''
+            
+consulta3='''SELECT  Name FROM SalesLT.ProductModel;'''
+consulta4='''SELECT  UnitPrice FROM SalesLT.SalesOrderDetail;'''
+consultaConClausula='''SELECT  * FROM SalesLT.SalesOrderDetail WHERE UnitPrice>356.8980 ;'''
+consultaConClausula2='''SELECT  TOP 20 Name, ListPrice, StandardCost FROM SalesLT.Product WHERE StandardCost >= 400 and StandardCost <= 1000;'''
+consultaConClausulaOR2='''SELECT  TOP 20 Name, ListPrice, StandardCost FROM SalesLT.Product WHERE StandardCost < 800 OR StandardCost > 870;'''
+#consultaSQL(consultaConClausulaOR2)
+
+def insertaData():
+    cursor = conecta(server,database,username,password)
+    cursor.execute(consulta)
+    
+insertaData("insert into products(id, name), values (pyodbc awesomelibrary))
