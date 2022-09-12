@@ -8,7 +8,7 @@ import pyodbc
 server = 'tcp:miservidors.database.windows.net,1433' 
 database = 'miBaseDeDatosDeEjemplo' 
 username = 'db' 
-password = 'Fede/(40021)' 
+password = '' 
 # Specifying the ODBC driver, server name, database, etc. directly
 
 
