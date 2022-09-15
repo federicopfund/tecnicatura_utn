@@ -1,3 +1,6 @@
+# Java
+##
+
 El lenguaje Java. El lenguaje Java se compone de tres estructuras básicas de código-- una clase, que codifica la unidad básica de su código y describe los datos y la lógica de su programa, un paquete, que es una agregación de código lógico intermedio-- eso es todo un bocado.
 
 Un paquete es cero o más clases, típicamente un grupo de clases que están lógicamente relacionadas entre sí. Por ejemplo, si estuviera creando una aplicación para la entrada de pedidos, probablemente tendría un paquete de entrada de pedidos. Y tendría, como, una clase de pedidos, y tendría una clase de productos, y cosas por el estilo.
