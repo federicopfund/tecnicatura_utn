@@ -14,7 +14,7 @@ public class CiclosWhile {
         do{ // block do
             System.out.println("contador" + contador);
             contador++;
-           }while(contador < 7);
+           }while(contador < 7);   
     }
     
 }
