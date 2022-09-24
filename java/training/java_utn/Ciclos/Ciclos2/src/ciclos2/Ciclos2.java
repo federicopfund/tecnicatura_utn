@@ -11,8 +11,8 @@ public class Ciclos2 {
 
     public static void main(String[] args) {
         // Ejercicio con scanner
-        Scanner entrada;
-        entrada = new Scanner(System.in);
+        
+        Scanner entrada = new Scanner(System.in);
         System.out.println("Digite un Numero: ");
         var numero = Integer.parseInt(entrada.nextLine());
         
