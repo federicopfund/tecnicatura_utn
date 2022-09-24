@@ -3,7 +3,6 @@ package Operaciones;
 
 
 public class PruevaAritmetica {
-    
     public static void main(String[] args) {
         // Nuevo Objeto llamando a un constructor
         Aritmetica aritmetica1 = new Aritmetica();
