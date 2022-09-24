@@ -24,7 +24,7 @@ public class CicloCuadrado {
             numero = Integer.parseInt(entrada.nextLine());
         }
         
-        
+        System.out.println("El programa a finalizado por numeros Negrativo");
     }
     
 }
