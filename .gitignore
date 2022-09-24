@@ -131,7 +131,12 @@
 
 /java/training/java_utn/treeNode/nbproject/private/
 
-/java/training/java_utn/Clases&Objetos/Aritmetica/nbproject/private/
-/java/training/java_utn/Clases&Objetos/Operaciones/nbproject/private/
-/java/training/java_utn/Clases&Objetos/Aritmerica/.gradle/
-/java/training/java_utn/Clases&Objetos/ClassAritmetica/target/
+
+/java/training/java_utn/Clases&Objetos/Aritmetica/build/
+/java/training/java_utn/Clases&Objetos/Aritmetica/nbproject
+/java/training/java_utn/Clases&Objetos/Aritmetica/build.xml
+/java/training/java_utn/Clases&Objetos/Aritmetica/manifest.mf
+
+
+
+/java/training/java_utn/Clases&Objetos/Aritmerica/nbproject
