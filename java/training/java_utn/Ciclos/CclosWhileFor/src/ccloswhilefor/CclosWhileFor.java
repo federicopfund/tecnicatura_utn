@@ -25,12 +25,22 @@ public class CclosWhileFor {
                 break;
             }
         }
+        
         // Continue = "CONTINUE CON EL FLUJO DE EJECUCION". 
         for(var contando = 0; contando < 7 ; contando++){
             // Mostrara Numeros pares por una estructura condicional
             if(contador % 2 == 0){
                 // Vamos a la Siguiente Iteracion.
                 continue;
+            }
+            System.out.println("contando = " + contando);
+        }
+        // Etiquetas lebels
+        inicio:
+        for(var contando = 0; contando < 7 ; contando++){
+            // Mostrara Numeros pares por una estructura condicional
+            if(contador % 2 == 0){
+                continue inicio;
             }
             System.out.println("contando = " + contando);
         }
