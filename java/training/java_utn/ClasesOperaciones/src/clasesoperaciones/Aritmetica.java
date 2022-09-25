@@ -15,8 +15,21 @@ public class Aritmetica {
     int b;
     
     // Metodos
-    
     public int sumarNumeros(){
+        int resultado = a + b;
+        System.out.println("El resutado es: " + resultado);
+        return resultado;
+        }
+    public int sumarNumeroConRetorno(){
         return a + b;
+    }
+    
+    // Retorna con Argumentos
+    public int sumarConArgumentos(int a,int b){
+        // Apunta al espacio  de memoria donde esta guardado dicho atributo
+        
+        this.a = a;
+        this.b = b;
+        return sumarNumeroConRetorno();
     }
 }
