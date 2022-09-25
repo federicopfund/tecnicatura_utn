@@ -19,7 +19,8 @@ public class Condicionales9 {
             case 1, 2, 3 -> estacion = "Verano";
             case 4, 5, 6 -> estacion = "Otoño";
             case 7, 8, 9 -> estacion = "Invierno";
-            case 10, 11, 12 -> estacion = "Primavera";        }
+            case 10, 11, 12 -> estacion = "Primavera";     
+           }
         System.out.println("estacion = " + estacion);
     }
     
