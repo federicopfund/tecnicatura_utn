@@ -89,6 +89,5 @@ Otros marcos para arquitecturas orientadas a microservicios
 
 [Oportunidades de implementación en Azure](https://docs.microsoft.com/es-es/learn/modules/intro-to-java-azure/5-deployment-opportunities)
 
-![Estructura](https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.appplatform/azure-spring-cloud)
-
-[spring bot](../Java_tutoriales/img/implementacion%20en%20azure.png)
+>[Estructura](https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.appplatform/azure-spring-cloud)
+![spring bot](../Java_tutoriales/img/implementacion%20en%20azure.png)
