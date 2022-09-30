@@ -26,7 +26,7 @@ public class Ciclos1 {
                 System.out.println("El ciclo termino por ingrsar un 0.");
                 break;
             }
- 	// Este condicionar verificara que no es par .
+ 	        // Este condicionar verificara que no es par .
             if (numero % 2 == 0) {
                 System.out.println("Es par");
             } else {
