@@ -53,4 +53,19 @@ console.log(typeof x);
 var y = null; //null no es un tipo de dato, pero su origen es de tipo object
 console.log(typeof y);
 
+// Tipos de datos array y empty String
+
+var autos = ['Citroen','Audi','BMW','Ford'];
+console.log(autos);
+// que tipo de autos es
+console.log(typeof autos);
+
+var z = " ";
+// cadena vacia
+console.log(z);
+console.log(typeof z);
+
+
+
+
 
