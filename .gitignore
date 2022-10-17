@@ -3,15 +3,14 @@
 /java/training/Java_utn/nbproject/private/
 /java/training/Ejercicio1/nbproject/private/
 
-/java/training/java_utn/Ejercicio1/nbproject
-/java/training/java_utn/Ejercicio1/build/
+/java/training/java_utn/leccion01/Ejercicio1/nbproject
+/java/training/java_utn/leccion01/Ejercicio1/build/
 /java/training/java_utn/Ejercicio2/nbproject
 /java/training/java_utn/Ejercicio2/build/
-/java/training/java_utn/Ejercicio1/build.xml
-/java/training/java_utn/Ejercicio1/manifest.mf
+/java/training/java_utn/leccion01/Ejercicio1/build.xml
+/java/training/java_utn/leccion01/Ejercicio1/manifest.mf
 
-/java/training/java_utn/Ejercicio1/nbproject/private/
-/java/training/java_utn/Ejercicio1/build/
+
 /java/training/java_utn/Ejercicio2/nbproject
 /java/training/java_utn/Ejercicio2/build/
 
@@ -193,7 +192,21 @@
 /java/training/java_utn/ClasesOperaciones/build.xml
 /java/training/java_utn/ClasesOperaciones/manifest.mf
 /java/training/java_utn/ClasesOperaciones/build
-/java/training/JavaRefactorChallenge/GroupbyMultiwayFunction/nbproject
-/java/training/JavaRefactorChallenge/GroupbyMultiwayFunction/build.xml
-/java/training/JavaRefactorChallenge/GroupbyMultiwayFunction/manifest.mf
 
+/java/training/java_utn/ClaseCaja/build.xml
+/java/training/java_utn/ClaseCaja/manifest.mf
+/java/training/java_utn/ClaseCaja/nbproject
+/java/training/java_utn/ClaseCaja/build
+
+
+/java/training/java_utn/JavaClase/build.xml
+/java/training/java_utn/JavaClase/manifest.mf
+/java/training/java_utn/JavaClase/nbproject
+/java/training/java_utn/JavaClase/build
+
+/java/training/java_utn/pasoporValor/build.xml
+/java/training/java_utn/pasoporValor/manifest.mf
+/java/training/java_utn/pasoporValor/nbproject
+/java/training/java_utn/pasoporValor/build
+
+/java/training/java_utn/proyectoCaja/
