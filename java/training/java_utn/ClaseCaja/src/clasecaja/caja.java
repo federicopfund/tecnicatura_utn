@@ -2,9 +2,10 @@
 package clasecaja;
 
 /**
- * @author federico pfund
+ *
+ * @author feder
  */
-class Caja {
+public class caja {
         
     // Atributos. 
     int ancho;

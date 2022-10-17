@@ -21,7 +21,7 @@ public class ClaseCaja {
         
         // Instanciamos el objeto, contrucutor vacio.
         
-        Caja nuevaCaja = new Caja();
+        Caja_1 nuevaCaja = new Caja_1();
         
         // le pasamos los valores al objeto.
         
@@ -34,7 +34,7 @@ public class ClaseCaja {
         // primer resultado.
         System.out.println("Resultado volumen de caja 1: " + resultado);
         // llamamos al contructor 2 con nuevos argumentos.
-        Caja segundaCaja = new Caja(2,3,6);
+        Caja_1 segundaCaja = new Caja_1(2,3,6);
         // llamamos con el nuevo objeto al metodo para un nuevo calculo
         System.out.println("El volumen de la caja 2 es:" + segundaCaja.calcularVolumen());
     }

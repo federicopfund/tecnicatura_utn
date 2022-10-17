@@ -1,20 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author feder
- */
 public class PasoporValor {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        var valorX = 20;
+        System.out.println("valorX" + valorX);
+        // Solo le enviamos una copia
+        cambioValor(valorX);
     }
-    
+    public static void cambioValor(int arg1){
+        // parametros por valor
+        System.out.println("arg1 =" + arg1);
+        arg1 = 15;
+    }    
 }
