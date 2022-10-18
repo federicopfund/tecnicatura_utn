@@ -9,13 +9,11 @@
 /java/training/java_utn/Ejercicio2/build/
 /java/training/java_utn/leccion01/Ejercicio1/build.xml
 /java/training/java_utn/leccion01/Ejercicio1/manifest.mf
-
-/java/training/java_utn/leccion01/holaMundo/manifest.mf
+/java/training/java_utn/leccion01/holaMundo/build
+/java/training/java_utn/leccion01/holaMundo/nbproject
 /java/training/java_utn/leccion01/holaMundo/build.xml
-/java/training/java_utn/leccion01/holaMundo/private.xml
-/java/training/java_utn/leccion01/holaMundo/project.xml
-
-
+/java/training/java_utn/leccion01/holaMundo/manifest.mf
+/java/training/java_utn/Ejercicio1/build/
 /java/training/java_utn/leccion01/Ejercicio2/nbproject
 /java/training/java_utn/leccion01/Ejercicio2/build/
 
@@ -43,17 +41,21 @@
 /java/training/java_utn/leccion01/Ejercicio7/build.xml
 /java/training/java_utn/leccion01/Ejercicio7/manifest.mf
 /java/training/java_utn/leccion01/Condicionales/Condicionales8/nbproject
-/java/training/java_utn/leccion01/Condicionales/Condicionales8/build/
-/java/training/java_utn/leccion01/Condicionales/Condicionales8/build.xml
+/java/training/java_utn/leccion01/Condicionales/Condicionales8/build
 /java/training/java_utn/leccion01/Condicionales/Condicionales8/manifest.mf
+/java/training/java_utn/leccion01/Condicionales/Condicionales8/build.xml
 /java/training/java_utn/leccion01/Condicionales/Condicionales9/nbproject
-/java/training/java_utn/leccion01/Condicionales/Condicionales9/build/
-/java/training/java_utn/leccion01/Condicionales/Condicionales9/build.xml
+/java/training/java_utn/leccion01/Condicionales/Condicionales9/build
 /java/training/java_utn/leccion01/Condicionales/Condicionales9/manifest.mf
+/java/training/java_utn/leccion01/Condicionales/Condicionales9/build.xml
 /java/training/java_utn/leccion01/Condicionales/Condicionales10/nbproject
-/java/training/java_utn/leccion01/Condicionales/Condicionales10/build/
-/java/training/java_utn/leccion01/Condicionales/Condicionales10/build.xml
+/java/training/java_utn/leccion01/Condicionales/Condicionales10/build
 /java/training/java_utn/leccion01/Condicionales/Condicionales10/manifest.mf
+/java/training/java_utn/leccion01/Condicionales/Condicionales10/build.xml
+
+
+
+
 
 /java/training/java_utn/holaMundo/build/
 /java/training/java_utn/holaMundo/nbproject
@@ -197,6 +199,7 @@
 /java/training/java_utn/ClasesOperaciones/build.xml
 /java/training/java_utn/ClasesOperaciones/manifest.mf
 /java/training/java_utn/ClasesOperaciones/build
+<<<<<<< HEAD
 
 /java/training/java_utn/ClaseCaja/build.xml
 /java/training/java_utn/ClaseCaja/manifest.mf
@@ -215,3 +218,19 @@
 /java/training/java_utn/pasoporValor/build
 
 /java/training/java_utn/proyectoCaja/
+=======
+/java/training/java_utn/proyectoCaja/nbproject/private/
+/java/training/java_utn/JavaClase/nbproject/private/
+/java/training/java_utn/clasescaja/nbproject/private/
+/java/training/java_utn/ClaseCaja/nbproject
+/java/training/java_utn/ClaseCaja/build/
+/java/training/java_utn/ClaseCaja/build.xml
+/java/training/java_utn/ClaseCaja/manifest.mf
+/java/training/java_utn/pasoporValor/nbproject
+/java/training/java_utn/pasoporValor/build.xml
+/java/training/java_utn/pasoporValor/manifest.mf
+
+/java/training/java_utn/ClasesObjetos/build/
+/java/training/java_utn/leccion01/Ejercicio1/build/
+/java/training/java_utn/leccion01/Ejercicio1/nbproject/private/
+>>>>>>> java

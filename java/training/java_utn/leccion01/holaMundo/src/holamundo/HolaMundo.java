@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package holamundo;
 
 /**
@@ -79,36 +75,7 @@ public class  HolaMundo {
         System.out.println("Escriba el titulo: ");
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+" "+usuario2);
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
         int entero;
         float decimal;
         String cadena; 
@@ -153,22 +120,7 @@ public class  HolaMundo {
         System.out.println("Valor maximo del int: "+ Integer.MAX_VALUE);
         
         // Debemos agregar la letra "L" al final del número.
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+  
         
         long numEnteroLong = 24422L;
         System.out.println("numEnteroLong = " + numEnteroLong);
@@ -236,35 +188,7 @@ public class  HolaMundo {
         /*
         boolean varBool = true;
         System.out.println("varBool = " + varBool);
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
         if (varBool) {
             System.out.println("La bandera es verde");
         }

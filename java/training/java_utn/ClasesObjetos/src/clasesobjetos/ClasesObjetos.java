@@ -10,7 +10,7 @@ public class ClasesObjetos {
        //Asinamos Valores al objeto de tipo persona creado 
        personaA.apellido = "Sztajnszrajber";
        personaA.nombre = "Dario";
-       personaA.estudios = "Licenciado en Filosofía ";
+       personaA.estudios = "Filosofía ";
        personaA.obtenerInformacion();
        Persona personaB =  new Persona();
        personaB.apellido = "Wolfram";

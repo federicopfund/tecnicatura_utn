@@ -4,8 +4,8 @@ package clasesobjetos;
 
 public class Persona {
     //Atributod de la clase
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     String estudios;
     // Metodos de la clase
     public void obtenerInformacion(){
