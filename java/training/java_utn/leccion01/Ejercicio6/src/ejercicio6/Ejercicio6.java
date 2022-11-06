@@ -11,7 +11,7 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         float matias,carlos,federico,total;
-        System.out.println("Digite la cantidad de dinero de Guillermo: ");
+        System.out.println("Digite la cantidad de dinero de Carlo: ");
         federico = Float.parseFloat(entrada.nextLine());
         
         matias = federico / 2;
@@ -21,3 +21,4 @@ public class Ejercicio6 {
         System.out.println("El dinero de carlos es: US$"+ carlos*100 + " + una Lamborghini Veneno y 2 Mellis");
         System.out.println("El total de dinero entre los tres es: US$"+ total);
     } 
+}
