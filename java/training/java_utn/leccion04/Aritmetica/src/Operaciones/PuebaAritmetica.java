@@ -2,6 +2,7 @@
 package Operaciones;
 
 public class PuebaAritmetica {
+    
     public static void main(String[] args) {
         var a = 10; //variables locales
         int b = 7; //Memoria stack
