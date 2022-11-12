@@ -57,6 +57,7 @@ public class Persona{
         this.edad = edad;
     }
 
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

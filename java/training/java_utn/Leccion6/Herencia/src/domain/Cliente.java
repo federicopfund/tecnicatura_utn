@@ -1,6 +1,7 @@
 
 package domain;
 
+
 import java.util.Date;
 
 public class Cliente extends Persona{
