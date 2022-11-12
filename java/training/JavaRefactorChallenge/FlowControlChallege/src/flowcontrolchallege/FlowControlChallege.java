@@ -1,0 +1,41 @@
+package flowcontrolchallege;
+
+/**
+ *
+ * @author feder
+ */
+public class FlowControlChallege {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        boolean isBarneyAlcoholic = true;
+        boolean isHomerFat = true;
+        String result = "";
+        //isHomerFat será verdadero y isBarneyAlcoholic será verdadero. La primera 
+        // condición será falsa y la segunda será falsa.
+        if (!(isHomerFat = true) || !(isBarneyAlcoholic = !false)){
+            result +="2";}
+        // isHomerFat será verdadero e isBarneyAlcoholic será falso. La primera
+        // condición será verdadera y la segunda condición será verdadera.       
+        if ((isHomerFat = true) & !(isBarneyAlcoholic = !isBarneyAlcoholic )){
+            result +="3";}
+        //isBarneyAlcoholic será verdadero y isHomerFat será verdadero.
+        // La primera y segunda condiciones serán verdaderas.
+        if ((isBarneyAlcoholic = !isBarneyAlcoholic) && isHomerFat){
+            result +="4";}
+        //isBarneyAlcoholic será verdadero y isHomerFat seguirá siendo verdadero. 
+        // Toda la condición será verdadera.        
+        if ((isBarneyAlcoholic = !true) | isHomerFat){
+            result +="5";}
+        /* if ((isHomerFat = true) & (isBarneyAlcoholic = true)){
+            result +="4";}
+        if ((isHomerFat)  || (isBarneyAlcoholic = false)){
+            result +="5";}
+        */ 
+        System.out.println(result + isHomerFat + isBarneyAlcoholic);
+      
+    }
+    
+}

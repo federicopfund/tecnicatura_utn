@@ -1,4 +1,4 @@
-
+## main leccion 2
 from resource.ejercicio5.nota_numerica import nota_numerico
 from resource.ejercicio4.etapas_de_la_vida import etapas_de_la_vida
 from resource.ejercicio3.estacion import estacion_del_año
