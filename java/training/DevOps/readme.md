@@ -88,3 +88,6 @@ Otros marcos para arquitecturas orientadas a microservicios
     - Micronaut es un marco moderno de pila completa basado en JVM para compilar aplicaciones sin servidor y microservicios modulares y fáciles de probar. Micronaut incluye una inyección de dependencias y un entorno de ejecución de programación orientado a aspectos que no usa ninguna reflexión. Esto facilita la ejecución de aplicaciones de Micronaut en GraalVM.
 
 [Oportunidades de implementación en Azure](https://docs.microsoft.com/es-es/learn/modules/intro-to-java-azure/5-deployment-opportunities)
+
+>[Estructura](https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.appplatform/azure-spring-cloud)
+![spring bot](../Java_tutoriales/img/implementacion%20en%20azure.png)
