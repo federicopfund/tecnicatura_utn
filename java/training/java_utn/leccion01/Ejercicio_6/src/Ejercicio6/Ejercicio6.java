@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        float Carlos,fede,juan,total;
+        float Carlos,fede,juan = 0,total;
         System.out.println("Digite la cantidad de dinero de Carlos: ");
         Carlos = Float.parseFloat(entrada.nextLine());
         
