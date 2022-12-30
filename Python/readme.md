@@ -7,6 +7,7 @@
 * Cada lenguaje de programación maneja los principios de la programación orientada a objetos de forma un poco diferente, por lo que es importante aprender la programación orientada a objetos para cada idioma que esté aprendiendo. Hoy, discutiremos los conceptos básicos de OOP en Python para impulsar sus habilidades de Python.
 #
 
+
 ### [¿Qué es la Programación Orientada a Objetos?](https://ellibrodepython.com/programacion-orientada-a-objetos-python)
 #
 ### [POO en Python](https://www.educative.io/blog/how-to-use-oop-in-python#oop-python)
