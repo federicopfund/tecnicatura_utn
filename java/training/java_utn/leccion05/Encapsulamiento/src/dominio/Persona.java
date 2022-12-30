@@ -7,7 +7,8 @@ public class Persona {
     private double sueldo;
     private boolean eliminado;
     
-    //Constructor
+    
+    //Constructor 
     public Persona(String nombre, double sueldo, boolean eliminado){
         this.nombre = nombre;
         this.sueldo = sueldo;

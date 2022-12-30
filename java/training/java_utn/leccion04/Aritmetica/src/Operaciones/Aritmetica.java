@@ -17,11 +17,13 @@ public class Aritmetica {
         System.out.println("Se esta ejecutando este constructor número dos");
     }
     
-    //Metodo
+    //Metodo 
+
     public void sumarNumeros(){
         int resultado = a + b;
         System.out.println("resultado = " + resultado);
     }
+    
     
     public int sumarConRetorno(){
         //int resultado = a + b;
