@@ -2,7 +2,7 @@
 package dominio;
 
 public class Persona {
-    // Atributos tipos primitivos
+    //Atributos
     private String nombre;
     private double sueldo;
     private boolean eliminado;
