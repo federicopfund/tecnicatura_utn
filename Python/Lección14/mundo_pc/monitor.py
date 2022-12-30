@@ -1,5 +1,4 @@
 
-
 class Monitor:
 
     contador_monitores = 0
