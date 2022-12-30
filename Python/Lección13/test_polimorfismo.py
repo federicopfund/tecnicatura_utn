@@ -2,6 +2,7 @@ from Empleado import Empleado
 from Gerente import Gerente
 
 
+
 def imprimir_detalles(objeto): # Este es el método para aprender lo que es el polimorfismo
     # print(objeto)  # De manera indirecta llama al str de la clase Empleado o Gerente
     print(type(objeto))  # Esto es para saber el tipo de dato que recibe
