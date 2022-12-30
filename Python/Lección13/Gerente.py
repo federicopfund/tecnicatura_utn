@@ -1,6 +1,6 @@
 from Empleado import Empleado
 
-
+# Gerente hereda los atributos de empleado.
 class Gerente(Empleado):
     def __init__(self, nombre, sueldo, departamento):
         super().__init__(nombre, sueldo)
