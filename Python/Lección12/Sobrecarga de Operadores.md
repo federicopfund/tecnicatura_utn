@@ -1,3 +1,5 @@
+## Sobrecarga de un operador 
+
 Básicamente, la sobrecarga de un operador 
 significa que un mismo operador puede 
 comportarse de diferentes formas.
@@ -24,11 +26,11 @@ trabajar de distintas formas.
 Esto se conoce como sobrecarga de operadores.
 
 Caso 1                            Caso 2
-
+```python
 a = 2                             a = 'Hola '
 b = 3                             b = 'Mundo'
 print(a + b)                      print(a + b)
-
+```
 En ese segundo caso, en lugar de obtener 
 una suma, obtenemos una concatenación de 
 tipos string de tipos cadena, y entonces 
@@ -40,11 +42,11 @@ una forma, y si tenemos tipos strings se
 comporta de otra forma.
 
 Agregamos unas listas:
-
+```python
 a = [3, 4, 5]
 b = [6, 7, 8, 9]
 print(a + b)
-
+```
 Se va a comportar de manera diferente, 
 obtenemos la unión de las dos listas,
 creando una sola.
@@ -67,22 +69,26 @@ según el operador que queramos sobrecargar.
 Todos están definidos en la clase object
 
    Operadores Aritmeticos          magic method
- +                            __add__(self, other)
- -                            __sub__(self, other)
- *                            __mul__(self, other)
- /                            __truediv__(self, other)
- //                           __floordiv__(self, other)
- %                            __mod__(self, other)
- **                           __pow__(self, other)
 
+```python
+
+      +                            __add__(self, other)
+      -                            __sub__(self, other)
+      *                            __mul__(self, other)
+      /                            __truediv__(self, other)
+      //                           __floordiv__(self, other)
+      %                            __mod__(self, other)
+      **                           __pow__(self, other)
+```
    Operador Comparación (lógicos)
+   ```python
  <                            __lt__(self, other)
  >                            __gt__(self, other)
  <=                           __le__(self, other)
  >=                           __ge__(self, other)
  ==                           __eq__(self, other)
  !=                           __ne__(self, other)
-
+```
 
 Entonces tenemos que sobreescribir el método 
 respectivo definido en la clase Object.
@@ -118,6 +124,8 @@ La sobrecarga de operadores y la sobreescritura
 de métodos.
 
 Operadores de asignación(compuestos)   magic method
+
+```python
  -=                            __isub__(self, other)
  +=                            __iadd__(self, other)
  *=                            __imul__(self, other)
@@ -125,7 +133,7 @@ Operadores de asignación(compuestos)   magic method
  //=                           __ifloordiv__(self, other)
  %=                            __imod__(self, other)
  **=                           __ipow__(self, other)
-
+```
 Aquí están todas estas tablas con todos los 
 operadores que podemos sobrecargar.
 
@@ -140,10 +148,11 @@ Y también los operadores unarios con los cuales
 solamente trabajamos con un solo operando.
 
    Operadores Unarios            magic method
+```python 
  -                             __neg__(self, other)
  +                             __pos__(self, other)
  ~                             __invert__(self, other)
-
+```
 Así que les voy a entregar esta tabla en caso 
 de que necesiten sobrecargar alguno de estos operadores.
 
