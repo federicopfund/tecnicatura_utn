@@ -1,3 +1,4 @@
+# Sobrecarga de Operadores.
 class Persona:
     def __init__(self, nombre, edad):
         self.nombre = nombre
