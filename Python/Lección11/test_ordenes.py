@@ -1,6 +1,7 @@
 from Orden import Orden
 from Producto import Producto
 
+
 producto1 = Producto('Camiseta', 100.00)
 producto2 = Producto('Pantalon', 150.00)
 producto3 = Producto('Medias', 45.00)
