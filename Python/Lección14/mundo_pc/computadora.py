@@ -2,7 +2,7 @@ from mundo_pc.monitor import Monitor
 from mundo_pc.raton import Raton
 from mundo_pc.teclado import Teclado
 
-
+ 
 class Computadora:
 
     contador_computadoras = 0
