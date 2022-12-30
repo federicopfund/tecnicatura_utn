@@ -26,6 +26,7 @@ class Orden:
 
 
 if __name__ == '__main__':
+    
     producto1 = Producto('Camiseta', 100.00)
     producto2 = Producto('Pantalon', 150.00)
     productos1 = [producto1, producto2]  # Lista de productos
