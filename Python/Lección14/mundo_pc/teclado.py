@@ -1,6 +1,5 @@
 from mundo_pc.dispositivo_entrada import DispositivoEntrada
 
-
 class Teclado(DispositivoEntrada):
 
     contador_taclados = 0
