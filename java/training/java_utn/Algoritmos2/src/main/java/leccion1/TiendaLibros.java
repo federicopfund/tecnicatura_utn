@@ -3,9 +3,13 @@ package leccion1;
 import java.util.Scanner;
 
 public class TiendaLibros {
-
+	
 	private Scanner entrada;
 	private static TiendaLibros libro;
+	public static void main(String[] args) {
+		setLibro(new TiendaLibros());
+	}
+
 	public TiendaLibros() {
 		entrada = new Scanner(System.in);
         System.out.println("Digite en nombre del libro: ");
@@ -22,12 +26,7 @@ public class TiendaLibros {
         System.out.println("El envio del libro gratuito es: "+envioGratuito);
     
 	}
-
-	public static void main(String[] args) {
-		setLibro(new TiendaLibros());
-
-	}
-
+	
 	public static TiendaLibros getLibro() {
 		return libro;
 	}
