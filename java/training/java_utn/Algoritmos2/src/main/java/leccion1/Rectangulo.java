@@ -6,10 +6,17 @@ import java.util.Scanner;
 public class Rectangulo {
 
 	private Scanner entrada;
+	
+	/**
+	 *         Define main.
+	 */
+	public static void main(String[] args) {
+		setEntrada(new Rectangulo());
 
+	}
 
 	/**
-	 * 
+	 *        Define Rectangulo.
 	 */
 	public Rectangulo() {
 		 entrada = new Scanner(System.in);
@@ -23,13 +30,9 @@ public class Rectangulo {
 	        System.out.println("Perímetro: "+ perimetro);
 	}
 
-	
-	public static void main(String[] args) {
-		setEntrada(new Rectangulo());
-
-	}
-
-
+	/**
+	 * Metodos setter and getter sincronicos.
+	 */
 	public synchronized Scanner getEntrada() {
 		return entrada;
 	}
