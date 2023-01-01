@@ -9,6 +9,7 @@ public class PruebaPersona {
         persona1.obtenerInformacion();
         
         Persona persona2 = new Persona();
+        System.out.println(3);
         System.out.println("persona2 = " + persona2);
         System.out.println("persona1 = " + persona1);
         persona2.obtenerInformacion();
