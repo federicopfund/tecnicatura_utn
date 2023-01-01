@@ -1,5 +1,7 @@
 package leccion9.Arreglos.test;
 
+import leccion10.Matrices.dominio.Persona;
+
 public class TestArregloObject {
 
 	public static void main(String[] args) {
