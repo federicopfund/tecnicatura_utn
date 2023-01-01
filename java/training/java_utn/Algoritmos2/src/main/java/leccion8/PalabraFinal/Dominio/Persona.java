@@ -1,10 +1,19 @@
 package leccion8.PalabraFinal.Dominio;
 
+
 public class Persona {
+    public final static int CONSTANTE_AQUI = 15;
+    private String nombre;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public String getNombre() {
+        return nombre;
+    }
 
-	}
-
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    public void imprimir(){
+        System.out.println("Método para imprimir");
+    }
 }
