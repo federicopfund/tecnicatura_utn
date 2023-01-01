@@ -3,7 +3,8 @@ package leccion10.Matrices.dominio;
 public class Persona {
 	private String nombre;
 
-    public void Persona(String nombre) {
+  
+	public  Persona(String nombre) {
         this.nombre = nombre;
     }
 
