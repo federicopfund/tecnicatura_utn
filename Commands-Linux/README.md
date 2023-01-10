@@ -34,7 +34,7 @@ Navegación en el sistema de archivos:
 - `cd ../..` = Sube 2 jerarquías, así que ve al directorio `usr`
 - `cd /usr` = Alternativa para ir a `usr` directamente (ruta absoluta)
 - `cd [absolute path]` = Mover a cualquier lugar proporcionando la ruta completa
-- `cd /home/nana` = Ir a mi directorio personal (ruta absoluta)
+- `cd $home` = Ir a mi directorio personal (ruta absoluta)
 - `cd ~` = Acceso directo alternativo para ir al directorio de inicio
 - `ls /etc/network` = Lista de carpetas y archivos del directorio `red`
 
