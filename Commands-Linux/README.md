@@ -579,7 +579,7 @@ Comandos de red útiles:
 <br />
 
 Connecting via SSH: `ssh username@SSHserver`
-- `ssh root@159.89.14.94`= Conectar con el usuario root a la dirección del servidor IP
+- `ssh root@129.82.11.93`= Conectar con el usuario root a la dirección del servidor IP
 - `ssh-keygen -t rsa`= Crear par de claves SSH con algoritmo 'rsa'. El par de claves SSH se almacena en la ubicación predeterminada `~/. ssh`
 - `ls .ssh/`= Mostrar el contenido de la carpeta . ssh, que tiene:
   - `id_rsa` = clave privada
