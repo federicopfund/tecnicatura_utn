@@ -20,11 +20,46 @@ Output: `/home/$USER`
 - `ls` = Listar carpetas y archivos. Ejemplo
  Output: `Desktop  Downloads  Pictures  Documents`
 - `cd [dirname]` = Cambie de directorio a `[dir]`
-- `mkdir [dirname]` = Hacer o Crear directorio [dirname]
+- `mkdir [dirname]` = Hacer o Crear directorio [dirname] 
+>Ejemplo:
+```
+mkdir -p mydir/{colors/{basic,blended},shape,animals/{mammals,reptiles}}`
+```
+![treefolder](treefolder.jpg)
 - `cd ..` = Ir al directorio.
 Operaciones de archivo:
 
 - `touch [filename]` = Crear filename]
+>Solo de Ejemplo:
+```
+touch Framework/{frontend/{appA/{dockerfileA,conf,src},appB/{dockerfileB,conf,src}},docker-compose,backend/{ServiceA/{consumer,dockerfileA,producer},ServiceB/{consumer,dockerfileB,producer}}}
+```
+```
+Framework
+   root:
+    ├── backend
+    │     ├── ServiceA
+    │     │     ├── dockerfileA
+    │     │     ├── producer
+    │     │     └── consumer
+    │     └── ServiceB
+    │           ├── dockerfileB
+    │           ├── producer
+    │           └── consumer
+    ├── frontend
+    │     ├── appA
+    │     │     ├── conf
+    │     │     ├── src
+    │     │     └── dockerfileA
+    │     └── appB
+    │           ├── conf
+    │           ├── src
+    │           └── dockerfileB
+    └── docker-compose
+```
+
+
+
 - `rm [filename]` = Eliminar [filename]
 - `rm -r [dirname]` = Eleminar un directorio no vacío y todos los archivos en él
 - `rm -d [dirname]` or `rmdir [dirname]` = Eliminar un directorio vacío
