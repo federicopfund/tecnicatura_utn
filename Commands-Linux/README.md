@@ -25,7 +25,7 @@ Output: `/home/$USER`
 ```
 mkdir -p mydir/{colors/{basic,blended},shape,animals/{mammals,reptiles}}`
 ```
-![treefolder](treefolder.jpg)
+
 - `cd ..` = Ir al directorio.
 Operaciones de archivo:
 
@@ -36,7 +36,6 @@ touch Framework/{frontend/{appA/{dockerfileA,conf,src},appB/{dockerfileB,conf,sr
 ```
 ```
 Framework
-   root:
     ├── backend
     │     ├── ServiceA
     │     │     ├── dockerfileA
