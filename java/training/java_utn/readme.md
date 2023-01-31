@@ -1,0 +1,1 @@
+[uml](https://start.jhipster.tech/jdl-studio/)
