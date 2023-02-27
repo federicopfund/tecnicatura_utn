@@ -715,8 +715,6 @@ Comandos de red útiles:
 ******
 
 
-******
-
 <details>
 <summary>System management</summary>
 <br />
@@ -729,7 +727,6 @@ Comandos de red útiles:
 ******
 
 
-******
 </details>
 
 
