@@ -498,34 +498,34 @@ Pipe comando:
 - `|` = Comando de tubería = Canaliza la salida del comando anterior como una entrada al siguiente comando
 
 Less comando:
-- `less [filename]` = Muestra el contenido de un archivo o una salida de comando, una página a la vez. Y permite navegar hacia adelante y hacia atrás a través del archivo
+- $ `less [filename]` = Muestra el contenido de un archivo o una salida de comando, una página a la vez. Y permite navegar hacia adelante y hacia atrás a través del archivo
 
 
 Diferentes ejemplos de tuberías/casos de uso:
-- `cat /var/log/syslog | less` = Canaliza la salida del archivo 'syslog' a menos programa.
-- `ls /usr/bin | less` = Canaliza la salida de `ls` comando 
-- `history | less` = Canaliza la salida del comando history a menos programa.
+- $ `cat /var/log/syslog | less` = Canaliza la salida del archivo 'syslog' a menos programa.
+- $ `ls /usr/bin | less` = Canaliza la salida de `ls` comando 
+- $ `history | less` = Canaliza la salida del comando history a menos programa.
 
 **Pipe & Grep:**
 
-Grep comando:
-- `grep [pattern]` = Busca un patrón particular de caracteres y muestra todas las líneas que contienen ese patrón
+>Grep comando:
+- $ `grep [pattern]` = Busca un patrón particular de caracteres y muestra todas las líneas que contienen ese patrón
 
-Más ejemplos de tuberías/casos de uso:
-- `history | grep sudo` = Busque cualquier comando de comandos de historia, que tienen 'sudo' palabra en ella
-- `history | grep "sudo chmod"` = Busque cualquier comando de comandos de historia, que tienen 'sudo chmod' frase en ella
-- `history | grep sudo | less` =  La salida de historial pasará la salida a grep y el filtro para 'sudo' y esta salida será nuevamente canalizada o pasada a menos programa
-- `ls /usr/bin/ | grep java` = Filtro ls de salida para java
-- `cat Documents/java-app/config.yaml | grep ports` = Ver todas las apariciones de 'ports' en el archivo config.yaml
+>Más ejemplos de tuberías/casos de uso:
+- $ `history | grep sudo` = Busque cualquier comando de comandos de historia, que tienen 'sudo' palabra en ella.
+- $ `history | grep "sudo chmod"` = Busque cualquier comando de comandos de historia, que tienen 'sudo chmod' frase en ella.
+- $ `history | grep sudo | less` =  La salida de historial pasará la salida a grep y el filtro para 'sudo' y esta salida será nuevamente canalizada o pasada a menos programa.
+- $ `ls /usr/bin/ | grep java` = Filtro ls de salida para java.
+- $ `cat Documents/java-app/config.yaml | grep ports` = Ver todas las apariciones de 'ports' en el archivo config.yaml.
 **Redirecciones en Linux:**
 - `>` = Redirect Operator = Toma la salida del comando anterior y la envía a un archivo que usted da.
 
 Diferentes ejemplos de redirecciones/casos de uso:
-- `history | grep sudo > sudo-commands.txt` = Redirigir la salida a un archivo 'sudo-commands.txt'
-- `cat sudo-commands.txt > sudo-rm-commands.txt` = Redirigir la salida del archivo 'sudo-commands.txt' al archivo 'sudo-rm-commands.txt'
+- $ `history | grep sudo > sudo-commands.txt` = Redirigir la salida a un archivo 'sudo-commands.txt'
+- $ `cat sudo-commands.txt > sudo-rm-commands.txt` = Redirigir la salida del archivo 'sudo-commands.txt' al archivo 'sudo-rm-commands.txt'
 
-- `history | grep rm > sudo-rm-commands.txt` = Redirigir la salida de comandos de historial filtrado al archivo existente 'sudo-rm-commands.txt'. Nota: El contenido del archivo será _overwritten_
-- `history | grep rm >> sudo-rm-commands.txt` = Redirigir la salida de comandos de historial filtrado al archivo existente 'sudo-rm-commands.txt'. Nota: El contenido del archivo será _appended_
+- $ `history | grep rm > sudo-rm-commands.txt` = Redirigir la salida de comandos de historial filtrado al archivo existente 'sudo-rm-commands.txt'. Nota: El contenido del archivo será _overwritten_
+- $ `history | grep rm >> sudo-rm-commands.txt` = Redirigir la salida de comandos de historial filtrado al archivo existente 'sudo-rm-commands.txt'. Nota: El contenido del archivo será _appended_
 
 </details>
 
@@ -539,49 +539,49 @@ _Las variables almacenan información. Las variables de entorno están disponibl
 _Una variable de entorno consiste en _name=value_ pair. _
 
 **Variables de entorno existentes:**
-- `SHELL=/bin/bash`= shell por defecto, en este caso bash
-- `HOME=/home/nana`= directorio personal del usuario actual
-- `USER=nana` = usuario actualmente conectado
+- `SHELL=/bin/bash`= shell por defecto, en este caso bash.
+- `HOME=/home/nana`= directorio personal del usuario actual.
+- `USER=nana` = usuario actualmente conectado.
 
 
 <!-- -->
-- `printenv` = Enumerar todas las variables de entorno
-- `printenv | less` = Listar todas las variables de entorno con menos programa
-- `printenv [environment variable]` = Valor de visualización de la variable de entorno dada, p.ej. `printenv USER`
-- `printenv | grep USER` = Filtrar variables de entorno, que tienen 'USER' en el nombre
+- $ `printenv` = Enumerar todas las variables de entorno.
+- $ `printenv | less` = Listar todas las variables de entorno con menos programa.
+- $ `printenv [environment variable]` = Valor de visualización de la variable de entorno dada, p.ej. `printenv USER`
+- $ `printenv | grep USER` = Filtrar variables de entorno, que tienen 'USER' en el nombre.
 <!-- -->
-- `echo $USER` = Valor de impresión de la variable de entorno USER
+- $ `echo $USER` = Valor de impresión de la variable de entorno USER.
 
 **Cree sus propias variables de entorno:**
-- `export DB_USERNAME=dbuser` = Establecer la variable de entorno 'DB_USERNAME' con el valor 'dbuser'
-- `export DB_PASSWORD=secretpwdvalue` = Establecer la variable de entorno 'DB_PASSWORD' con el valor 'secretpwdvalue'
-- `export DB_NAME=mydb` = Establecer la variable de entorno 'DB_NAME' con el valor 'mydb'
-- `printenv | grep DB` = Filtrar variables de entorno para caracteres 'DB'
-- `export DB_NAME=newdbname` = Establecer la variable de entorno 'DB_NAME' en un nuevo valor 'newdbname'
+- $ `export DB_USERNAME=dbuser` = Establecer la variable de entorno 'DB_USERNAME' con el valor 'dbuser'
+- $ `export DB_PASSWORD=secretpwdvalue` = Establecer la variable de entorno 'DB_PASSWORD' con el valor 'secretpwdvalue'
+- $ `export DB_NAME=mydb` = Establecer la variable de entorno 'DB_NAME' con el valor 'mydb'
+- $ `printenv | grep DB` = Filtrar variables de entorno para caracteres 'DB'
+- $ `export DB_NAME=newdbname` = Establecer la variable de entorno 'DB_NAME' en un nuevo valor 'newdbname'
 
 **Eliminar variables de entorno:**
-- `unset DB_NAME` = Eliminar variable con el nombre 'DB_NAME'
+- $ `unset DB_NAME` = Eliminar variable con el nombre 'DB_NAME'
 
 **Variables de entorno persistentes:**
 
 Variables de entorno persistentes con el archivo de configuración específico del shell:
-_Las variables de entorno establecidas en la terminal solo están disponibles en la sesión de la terminal actual. _
+>Las variables de entorno establecidas en la terminal solo están disponibles en la sesión de la terminal actual. _
 
-Agregue variables de entorno al archivo '~/.bashrc' o al archivo 'rc' de su shell específico. Las variables establecidas en este archivo se cargan cada vez que se introduce un shell de inicio de sesión de bash.
-- `export DB_USERNAME=dbuser`
-- `export DB_PASSWORD=secretvl`
-- `export DB_NAME=mydb`
-En terminal de nuevo:
-- `source ~/.bashcrc` = Cargar los nuevos env vars en la sesión de shell actual
+>Agregue variables de entorno al archivo '~/.bashrc' o al archivo 'rc' de su shell específico. Las variables establecidas en este archivo se cargan cada vez que se introduce un shell de inicio de sesión de bash.
+- $ `export DB_USERNAME=dbuser`
+- $ `export DB_PASSWORD=secretvl`
+- $ `export DB_NAME=mydb`
+>En terminal de nuevo:
+- $ `source ~/.bashcrc` = Cargar los nuevos env vars en la sesión de shell actual.
 
-Variables de entorno persistentes en todo el sistema:
-- ~./bashrc =específicos del usuario
-- /etc/environment = sistema, lo que significa que todos los usuarios tendrán acceso a las variables
+>Variables de entorno persistentes en todo el sistema:
+- ~./bashrc =específicos del usuario.
+- /etc/environment = sistema, lo que significa que todos los usuarios tendrán acceso a las variables.
 
 **Variable de entorno PATH:**
-- `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin` = Lista de directorios a archivos ejecutables, separados por ':'. Le dice al shell qué directorios a ssearch para el ejecutable en respuesta a nuestro comando ejecutado
+- `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin` = Lista de directorios a archivos ejecutables, separados por ':'. Le dice al shell qué directorios a ssearch para el ejecutable en respuesta a nuestro comando ejecutado.
 - `PATH=$PATH:/home/nana` = Anexar la carpeta /home/$USER
-al valor $PATH existente
+al valor $PATH existente.
 
 
 </details>
@@ -593,16 +593,16 @@ al valor $PATH existente
 <br />
 
 Comandos de red útiles:
-- `ip`= uno de los comandos básicos. Para configurar nuevos sistemas y asignar IPs a la solución de problemas de sistemas existentes. Puede mostrar información de direcciones, manipular el enrutamiento, además de mostrar varios dispositivos, interfaces y túneles de la red.
-- `ifconfig`= para configurar y solucionar problemas de redes. Desde entonces ha sido reemplazado por el comando `ip` 
-- `netstat`= herramienta para imprimir conexiones de red, tablas de enrutamiento, estadísticas de interfaz, conexiones de enmascaramiento y membresías multicast
-- `ps aux` =
+- $ `ip`= uno de los comandos básicos. Para configurar nuevos sistemas y asignar IPs a la solución de problemas de sistemas existentes. Puede mostrar información de direcciones, manipular el enrutamiento, además de mostrar varios dispositivos, interfaces y túneles de la red.
+- $ `ifconfig`= para configurar y solucionar problemas de redes. Desde entonces ha sido reemplazado por el comando `ip` 
+- $ `netstat`= herramienta para imprimir conexiones de red, tablas de enrutamiento, estadísticas de interfaz, conexiones de enmascaramiento y membresías multicast
+- $ `ps aux` =
   - ps = muestra información sobre una selección de los procesos activos
   - a =  mostrar procesos para todos los usuarios
   - u = mostrar el usuario/propietario del proceso
   - x = también muestran procesos no conectados a un terminal
-- `nslookup` = Buscar consultas relacionadas con DNS
-- `ping` =  Para comprobar la conectividad entre dos nodos
+- $ `nslookup` = Buscar consultas relacionadas con DNS
+- $ `ping` =  Para comprobar la conectividad entre dos nodos
 
 </details>
 
@@ -612,18 +612,66 @@ Comandos de red útiles:
 <summary>SSH - Secure Shell</summary>
 <br />
 
-Connecting via SSH: `ssh username@SSHserver`
-- `ssh root@129.82.11.93`= Conectar con el usuario root a la dirección del servidor IP
-- `ssh-keygen -t rsa`= Crear par de claves SSH con algoritmo 'rsa'. El par de claves SSH se almacena en la ubicación predeterminada `~/. ssh`
-- `ls .ssh/`= Mostrar el contenido de la carpeta . ssh, que tiene:
-  - `id_rsa` = clave privada
-  - `id_rsa.pub` = clave pública
-- `ssh -i .ssh/id_rsa root@129.82.11.93` = Conéctese con el usuario root a la dirección de servidor 129.82.11.93 con la ubicación de archivo de clave privada especificada (.ssh/id_rsa = predeterminado, pero puede especificar una diferente como esta)
+>Connecting via SSH: `ssh username@SSHserver`
+- $ `ssh root@129.82.11.93`= Conectar con el usuario root a la dirección del servidor IP
+- $ `ssh-keygen -t rsa`= Crear par de claves SSH con algoritmo 'rsa'. El par de claves SSH se almacena en la ubicación predeterminada `~/. ssh`
+- $ `ls .ssh/`= Mostrar el contenido de la carpeta . ssh, que tiene.
+  - $ `id_rsa` = clave privada.
+  - $ `id_rsa.pub` = clave pública.
+- $ `ssh -i .ssh/id_rsa root@129.82.11.93` = Conéctese con el usuario root a la dirección de servidor 129.82.11.93 con la ubicación de archivo de clave privada especificada (.ssh/id_rsa = predeterminado, pero puede especificar una diferente como esta)
 
-Dos archivos utilizados por SSH:
-- `~/.ssh/known_hosts` = permite al cliente autenticar el servidor para comprobar que no se conecta a un imitador
-- `~/.ssh/authorized_keys` = permite al servidor autenticar al usuario
+>Dos archivos utilizados por SSH:
+- $ `~/.ssh/known_hosts` = permite al cliente autenticar el servidor para comprobar que no se conecta a un imitador.
+- $ `~/.ssh/authorized_keys` = permite al servidor autenticar al usuario.
 
+</details>
+
+******
+</details>
+
+
+
+<details>
+<summary> System monitoring</summary>
+<br />
+
+>Instale el paquete de sensores lm:
+- $ `sudo apt-get install lm-sensors` = Instale el paquete de sensores lm.
+- $ `sudo sensors-detect` = Ejecute el comando de detección de sensores como root.
+
+>Determinará los módulos necesarios y al final le pedirá permiso para agregarlos automáticamente al archivo /etc/modprobe. Si respondió que sí, cárguelos usando el comando:
+- $ `sudo service module-init-tools start` = Ejecute el comando de detección de sensores como root.
+- $ `sensorst` =  Ahora puede usar el comando de sensores.
+</details>
+
+******
+
+
+******
+
+<details>
+<summary>System management</summary>
+<br />
+
+>Cómo determinar el nivel de ejecución actual usando Linux<
+- $ `who -r`= Para imprimir el nivel de ejecución actual, ejecute:
+- $ `sudo runlevel`= Para imprimir el nivel de ejecución anterior y actual.
+</details>
+
+******
+
+
+******
+</details>
+
+
+
+<details>
+<summary>¿Qué versión de Ubuntu estás usando?</summary>
+<br />
+
+>La forma más fácil de verificar la versión de Ubuntu es usar el comando lsb_release.
+- $ `lsb_release -a`= verificar la versión de Ubuntu.
 </details>
 
 ******
