@@ -579,7 +579,7 @@ Variables de entorno persistentes con el archivo de configuración específico d
 - /etc/environment = sistema, lo que significa que todos los usuarios tendrán acceso a las variables.
 
 **Variable de entorno PATH:**
-- `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin` = Lista de directorios a archivos ejecutables, separados por ':'. Le dice al shell qué directorios a ssearch para el ejecutable en respuesta a nuestro comando ejecutado.
+- `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin` = Lista de directorios a archivos ejecutables, separados por ':'. Le dice al shell qué directorios buscar para el ejecutable en respuesta a nuestro comando ejecutado.
 - `PATH=$PATH:/home/nana` = Anexar la carpeta /home/$USER
 al valor $PATH existente.
 
