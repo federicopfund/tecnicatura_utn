@@ -1,6 +1,4 @@
-/target/
+/bin/
 .settings
 .classpath
 .project
-pom.xml
-/.metadata/
